@@ -5,13 +5,9 @@
     padding: 0px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 :root{
     --fonte01:"Caveat", cursive;
-    --fonte02:"Cookie", cursive;
-
-}
+    }
 html,body{
     min-height: 100vh;
     background-color: rgba(119, 115, 115, 0.438);
@@ -75,5 +71,4 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
-    font-family:var(--fonte02);
 }
