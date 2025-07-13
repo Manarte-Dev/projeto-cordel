@@ -38,6 +38,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-family: var(--fonte01);
+    font-size: 2em;
 }
 section p{
     text-align: justify;
