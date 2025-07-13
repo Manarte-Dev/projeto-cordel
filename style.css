@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+:root{
+    --fonte01:"Caveat", cursive;
+    --fonte02:"Cookie", cursive;
+
+}
+html,body{
+    min-height: 100vh;
+    background-color: rgba(119, 115, 115, 0.438);
+}
+header {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    color: white
+}
+header a:hover{
+    background-color:gray;
+    color: black;
+    border-radius: 20px;
+    padding: 3px;
+    }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fonte01);
+}
+section p{
+    text-align: justify;
+    text-transform:capitalize;
+    line-height: 2em;
+    padding: 10px;
+    
+}
+section.imagem > p {   
+    background-color: rgba(0, 0, 0, 0.274);
+    display: inline-block;
+    text-shadow: 1px 2px 2px black;
+    padding: 10px;
+    
+}
+ section.imagem{
+    color: white;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.418);
+   }
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family:var(--fonte02);
+}
